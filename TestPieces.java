@@ -8,6 +8,7 @@ public class TestPieces {
 		
 	wPawn.setPieceType(" pawn");
 	wPawn.setColor("white ");
+	wPawn.setPosition(1,2);
 	
 	String prnt = wPawn.printInfo();
 	System.out.println(prnt);
@@ -16,6 +17,7 @@ public class TestPieces {
 	
 	bPawn.setPieceType(" pawn");
 	bPawn.setColor("black ");
+	bPawn.setPosition(7,6);
 	
 	prnt = bPawn.printInfo();
 	System.out.println(prnt);
