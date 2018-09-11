@@ -5,8 +5,7 @@ public class TestPieces {
 	public static void main (String [] args) {
 	
 	ChessPiece wPawn = new ChessPiece();	
-	//System.out.println("This is a new pawn.");
-	
+		
 	wPawn.setPieceType(" pawn");
 	wPawn.setColor("white ");
 	
@@ -14,7 +13,6 @@ public class TestPieces {
 	System.out.println(prnt);
 	
 	ChessPiece bPawn = new ChessPiece();	
-	//System.out.println("This is a new pawn.");
 	
 	bPawn.setPieceType(" pawn");
 	bPawn.setColor("black ");
