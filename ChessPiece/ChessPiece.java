@@ -52,7 +52,10 @@ public class ChessPiece {
 		String position[]= getPosition();
 
 		return "\nYour chess piece is a " + getColor() + getPieceType() + 
-		" \nChess position is x/column:" + position[0] + " and y/row: " + position[1]+ "\n";
+		" \nChess position is x/column:" + position[0] + " and y/row: " + position[1]+ "\n"; // = getPosition() - but this returns MEMORY LOCATION!!!
+		// 	INSTEAD OF:  return "Your chess piece is " + getColor() + getPieceType() + 
+		//!!! GETPOSITION(); !!!
+
 	}
 
 }
